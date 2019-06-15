@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #202020;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#ImagePanel{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3rem auto 3rem;
+}
+#ImagePanel > *{
+  display: block;
+}
+
+.inputDiv{
+  vertical-align: middle;
+  font-size: 1.5rem;
+  color: white;
+  padding: 0.5rem 4rem;
+}
+#monsterNo > input{
+  width: 4rem;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #404040;
+  border-radius: 0.5rem;
+  text-indent: 0.25rem;
+}
+#cardFrameSize > input{
+  width: 24rem;
+}
+
+.ImagePanel{
+  position: relative;
+}
+#cardFrame{
+  position: absolute;
+  display: block;
+}
