@@ -13,12 +13,12 @@ code {
     monospace;
 }
 
-#ImagePanel{
+#imagePanel{
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 3rem auto 3rem;
 }
-#ImagePanel > *{
+#imagePanel > *{
   display: block;
 }
 
@@ -40,8 +40,11 @@ code {
   width: 24rem;
 }
 
-.ImagePanel{
+.monsterImageBox{
   position: relative;
+}
+#newMonsterIcon, #monsterImg{
+  float: left;
 }
 #cardFrame{
   position: absolute;
