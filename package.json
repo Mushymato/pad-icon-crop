@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://mushymato.github.io/pad-icon-crop",
   "dependencies": {
+    "core-js": "^3.6.4",
     "merge-images": "^1.1.0",
     "react": "^16.8.6",
     "react-cursor-position": "^3.0.3",

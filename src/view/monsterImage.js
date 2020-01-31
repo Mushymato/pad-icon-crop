@@ -72,8 +72,8 @@ class MonsterImage extends React.Component {
     newMonsterIconCTX.drawImage(monsterImg,
       this.state.cardFrameStyle.left, this.state.cardFrameStyle.top,
       this.state.size, this.state.size,
-      0, 0,
-      this.state.cardFrameSize, this.state.cardFrameSize)
+      5, 5,
+      this.state.cardFrameSize - 10, this.state.cardFrameSize - 10)
     // draw card frames
     const cardFrame = this.refs.cardFrame
     const cardFrameCTX = this.refs.cardFrame.getContext("2d")
@@ -88,6 +88,10 @@ class MonsterImage extends React.Component {
       cardFrameCTX.drawImage(subAtt, 0, 0, this.state.size, this.state.size)
       newMonsterIconCTX.drawImage(subAtt, 0, 0)
     }
+  }
+
+  downloadIcon(monsterNo) {
+
   }
 
   render() {
